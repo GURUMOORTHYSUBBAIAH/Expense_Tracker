@@ -1,0 +1,8 @@
+.chart-box {
+    background-color: #f9f9f9;
+    min-height: 280px;
+  }
+  .chart-box canvas {
+    max-height: 220px !important;
+  }
+  

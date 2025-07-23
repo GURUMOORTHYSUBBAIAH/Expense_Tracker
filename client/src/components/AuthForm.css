@@ -1,0 +1,24 @@
+.auth-bg {
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    padding: 1rem;
+  }
+  
+  .auth-card {
+    max-width: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .auth-card:hover {
+    transform: scale(1.01);
+  }
+  
+  input:focus {
+    border-color: #2575fc !important;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.4) !important;
+  }
+  

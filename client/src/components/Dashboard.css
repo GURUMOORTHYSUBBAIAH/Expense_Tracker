@@ -1,0 +1,49 @@
+.summary-card.income {
+    background: linear-gradient(to right, #28a745, #218838);
+  }
+  
+  .summary-card.expense {
+    background: linear-gradient(to right, #dc3545, #c82333);
+  }
+  
+  .summary-card.balance {
+    background: linear-gradient(to right, #007bff, #0056b3);
+  }
+  
+  .summary-card h5 {
+    font-weight: 500;
+  }
+  
+  .summary-card h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-top: 0.25rem;
+  }
+  
+  .dashboard {
+    min-height: 100vh;
+    background: #f8f9fa;
+  }
+  
+  /* Mobile optimization */
+  @media (max-width: 576px) {
+    .summary-card h3 {
+      font-size: 1.4rem;
+    }
+  }
+  .bg-success-gradient {
+    background: linear-gradient(to right, #1d976c, #93f9b9);
+  }
+  
+  .bg-danger-gradient {
+    background: linear-gradient(to right, #e52d27, #b31217);
+  }
+  
+  .bg-primary-gradient {
+    background: linear-gradient(to right, #396afc, #2948ff);
+  }
+  
+  .card h3 {
+    font-size: 2rem;
+  }
+  
