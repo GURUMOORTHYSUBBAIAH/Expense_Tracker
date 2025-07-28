@@ -13,7 +13,7 @@ function ExpenseList({ expenses, token, onDelete }) {
   const handleDelete = async (id) => {
     if (!window.confirm('Are you sure you want to delete this transaction?')) return;
     try {
-      await axios.delete(`/api/expenses/${id}`, {
+      await axios.delete(`https://expense-tracker-68qa.onrender.com/api/expenses/${id}`, {
         headers: { Authorization: token },
       });
       onDelete();
