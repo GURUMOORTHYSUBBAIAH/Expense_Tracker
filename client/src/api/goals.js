@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://your-backend.onrender.com/api/goals';
+const API_URL = 'https://expense-tracker-68qa.onrender.com/api/goals';
 
 const getGoals = async (token) => {
   const config = {
