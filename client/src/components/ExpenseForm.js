@@ -16,7 +16,7 @@ function ExpenseForm({ token, onAdd }) {
     }
 
     try {
-      await axios.post('/api/expenses', formData, {
+      await axios.post('https://expense-tracker-68qa.onrender.com/api/expenses', formData, {
         headers: { Authorization: token }
       });
       setFormData({ title: '', amount: '', type: '' });
