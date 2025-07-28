@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://your-backend.onrender.com/api/expenses';
+const API_URL = 'https://expense-tracker-68qa.onrender.com/api/expenses';
 
 const getExpenses = async (token) => {
   const config = {
