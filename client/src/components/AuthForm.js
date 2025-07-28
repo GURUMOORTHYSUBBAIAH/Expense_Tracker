@@ -13,7 +13,7 @@ function AuthForm({ setToken }) {
     try {
       const res = await axios.post(url, form);
       localStorage.setItem('token', res.data.token);
-      setToken(res.data.token); // ✅ Use setToken instead of onLogin
+      setToken(res.data.token); //  Use setToken instead of onLogin
     } catch (err) {
       console.error("API Error:", err);
       alert(err?.response?.data?.message || 'Something went wrong');
