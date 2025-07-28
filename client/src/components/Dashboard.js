@@ -8,10 +8,10 @@ import ExportButtons from './ExportButtons';
 function Dashboard({ token, setToken, theme, user }) {
   const [expenses, setExpenses] = useState([]);
   const [showChart, setShowChart] = useState(false);
-  const chartRef = useRef(); // ✅ Chart container ref
+  const chartRef = useRef(); //  Chart container ref
 
   const fetchExpenses = async () => {
-    const res = await axios.get('/api/expenses', {
+    const res = await axios.get('https://expense-tracker-68qa.onrender.com/api/expenses', {
       headers: { Authorization: token }
     });
     setExpenses(res.data);
