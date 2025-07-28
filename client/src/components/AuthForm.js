@@ -8,7 +8,7 @@ function AuthForm({ setToken }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = isLogin ? '/api/auth/login' : '/api/auth/register';
+    const url = isLogin ? 'https://expense-tracker-68qa.onrender.com/api/auth/login' : 'https://expense-tracker-68qa.onrender.com/api/auth/register';
 
     try {
       const res = await axios.post(url, form);
